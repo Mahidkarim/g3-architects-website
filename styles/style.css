@@ -137,27 +137,28 @@
     padding: 20px;
     font-size: 45px;
     font-weight: bold;
-    
-   
-     
+
+
+
 }
 
 .love-paragraph {
     font-size: 16px;
     color: #727272;
-  
+
 }
 
 .features-love {
     display: flex;
     gap: 140px;
-     
+    margin-bottom: 100px;
+
 }
 
-.feature-card .love-paragraph{
+.feature-card .love-paragraph {
     font-size: 20px;
     font-weight: 700;
-    
+
 }
 
 .card {
@@ -166,18 +167,24 @@
     border-radius: 8px;
 }
 
-.card-img{ padding-top: 180px;}
+.card-img {
+    padding-top: 180px;
+}
 
-.button-padding{ padding: 42px;
+.button-padding {
+    padding: 42px;
 
     background-color: #FF900E;
     color: #FFFFFF;
     border-radius: 10px;
     border: none;
-width: 380px;
-height: 200px;}
+    width: 380px;
+    height: 200px;
+    margin-top: -100px;
+    margin-left: -97px;
+}
 
-
+/* .other  */
 .Quick {
     color: #727272;
     font-weight: 400
@@ -200,6 +207,7 @@ height: 200px;}
     font-size: 16px;
     color: #727272;
     font-weight: 300;
+     
 }
 
 
@@ -254,6 +262,18 @@ height: 200px;}
 }
 
 
+.footer{ font-size: 20px; 
+color: #424242;
+background-color: #FFF4E7;
+ width: 1250px;
+height: 90px;
+text-align: center;
+padding-top: 50px;
+margin-bottom: 100px;
+}
+
+
+
 /* responsive media query  */
 
 @media screen and (max-width: 576px) {
@@ -262,6 +282,7 @@ height: 200px;}
     .navbar,
     .quick-features {
         flex-direction: column;
+        
     }
 
     .img-section {
